@@ -1,0 +1,262 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+img{
+  max-width: 100%;
+}
+body{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+/*----header top start-----*/
+.header-top{
+  background-color: #232323;
+}
+.header-logo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.client{
+  text-align: right;
+}
+.client a{
+  display: inline-block;
+  background-color: #333333;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+ transition: 0.3s;
+ font-size: 13px;
+ text-decoration: none;
+}
+.client a:hover{
+  background-color: #000000;
+}
+/*----header top end-----*/
+/*----header button start-----*/
+.header-buttom{
+  background-color: #333333;
+}
+/*----header button end-----*/
+.menu ul{
+  list-style-type: none;
+  text-align: center;
+}
+.menu ul li{
+  display: inline-block;
+}
+.menu ul li a{
+  display: block;
+  color: #cecece;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu ul li a img{
+  float: left;
+  overflow: hidden;
+  width: 22px;
+  height: 18px;
+  margin-right: 1px;
+}
+.menu ul li a:hover{
+  color: white;
+}
+/*----Slider area start-----*/
+.slider{
+  max-height: 760px;
+  background: url(../img/other/banner_bg.jpg) no-repeat center/cover;
+  margin-top: -16px;
+}
+.slider-text h1{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 36px;
+  color: #ffffff;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.slider-text h2{
+  max-width: 750px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: revert;
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+.search-text{
+  display: block;
+  text-align: center;
+}
+.search-text h3{
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.search-button{
+  padding-bottom: 50px;
+}
+.search-button select {
+	padding: 20px 20px;
+	background-color: #e3e3e3;
+	/* color: #66666; */
+	font-size: 20px;
+}
+
+.search-box input {
+	width: 58%;
+	border-radius: 5px 5px;
+	padding: 17px 14px;
+	font-size: 22px;
+}
+.search-box button {
+	font-size: 26px;
+	color: #99999b;
+	background-color: #fff;
+	padding: 11px 33px;
+	margin-left: -6px;
+	border-radius: 0px 7px 7px 0px;
+	padding-bottom: 15px;
+}
+/*----Slider area End-----*/
+/*----Card area Start-----*/
+.card-section{
+  background-color: #F5F5F5;
+}
+.extra-btn-card {
+  font-size: 13px;
+  text-align: center;
+  display: inline-block;
+  padding: 14px 23px;
+  background-color: #19B395 !important;
+}
+/*----Card area End-----*/
+.project-item a{
+  display: inline-block;
+  text-align: center;
+  margin-top: 16px;
+  color: #666666;
+  text-decoration: none;
+}
+.project-item p{
+  color: #666666;
+}
+
+/* Team Section */
+.team-section{
+  background-color: #7BC4C4;
+}
+.team-section-title h2{
+  color: #ffffff;
+}
+.team-section-title p{
+  color: #F5F3A9;
+}
+
+.team-member-bio h4 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.team-member-bio h5 {
+  font-size: 15px;
+  color: #fdf3a9;
+}
+.team-member-bio p {
+  color: #fff;
+}
+.team-member-bio a{
+  text-decoration: none;
+  color: #fdf3a9;
+  font-weight: bold;
+}
+.team-member-bio a:hover{
+  color: #000000;
+}
+
+.btn-design:hover{
+  color: black;
+  background-color: #fff;
+}
+/* create acc section */
+.create-acc-sec{
+  background-color: #444444;
+}
+.create-acc-sec h2 {
+  color: #fff;
+  font-weight: 600;
+}
+.create-acc-sec h5 {
+  color: #ddd;
+  padding-bottom: 25px;
+}
+.create-acc-btn {
+  background-color: #7AA93C;
+  color: #fff;
+  border: none !important;
+  padding: 27px 50px;
+  font-size: 22px;
+}
+.create-acc-btn:hover{
+  color: #fff !important;
+}
+/* footer section */
+.footer-section{
+  background-color: #333333;
+}
+.footer-top {
+  border-bottom: 1px solid #444;
+  padding: 0px 0 10px;
+}
+
+.logo-right-part{
+  text-align: right;
+}
+
+.footer-left-part p {
+  color: #999;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.footer-left-part a {
+  color: #fff;
+  font-size: 14px;
+}
+.footer-middle-part h3{
+  color: #999;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-li-designe ul{
+  list-style-type: none;
+}
+
+.footer-li-designe ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+.footer-li-designe p{
+  color: #999;
+  font-size: 14px;
+}
+.footer-li-designe input {
+  background-color: #232323;
+  font-size: 13px;
+  width: 75%;
+  padding: 5px 9px;
+  border-radius: 2px;
+  border: none;
+}
+.footer-btn {
+  background-color: #82B440;
+  margin-top: 11px;
+  width: 75%;
+  padding: 1px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
